@@ -1,0 +1,62 @@
+html, body {
+    background-image:url("/images/layout.jpg");
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #1c1e1f;
+    font-family: 'raleway', sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 84px;
+}
+
+.links > a {
+    color: #4c98be;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}
+
+a{
+    font-weight: bolder;
+    color:white;
+}
+
+.card-body{
+    background-color:rgb(221, 198, 169);
+}

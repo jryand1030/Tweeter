@@ -1,0 +1,96 @@
+
+
+body, html{
+    margin:0;
+    padding:0;
+    font-family:Segoe,Segoe UI, "sans-serif";
+    line-height:1.5;
+    opacity: 3;
+   
+}
+.container{
+    width:100%;
+    height:100%;
+}
+
+video{
+    position: absolute;
+    background-attachment: fixed;
+    top:0%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    min-width: 100%;
+    min-height:100%;
+    width:100%;
+    height:100%;
+    z-index: 0;
+    opacity:.78;
+    width: 100%;
+    height:100%;
+}
+h1{
+  position: relative;
+  color:white;
+  z-index: 2;
+   margin-top: 10px; 
+}
+.video-header{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    color:#fff;
+}
+.wrap{
+    max-width: 960px;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   margin:auto;
+   text-align:center; 
+}
+
+.fullscreen-video-wrap{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
+.card-body{
+    color:blueviolet;
+}
+.title{
+    color:white;
+}
+hr{
+    color:white;
+}
+
+.text{
+    color:white;
+}
+.card-header{
+    background-color: rgb(41, 172, 172);
+}
+.card-body{
+    background-color:rgb(182, 201, 235);
+}
+
+button{
+background-color: rgba(30, 150, 140, 0.288);
+}
+
+.card-footer{
+    background-color: darkgrey;
+}
+p{
+    font-family:  monospace;
+    font-weight: 400;
+    color:black;
+}
+.message{
+    color:white;
+    font-family: sans-serif;
+}
+
+.login{
+    opacity:0.5; 
+}
